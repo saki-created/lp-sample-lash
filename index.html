@@ -54,8 +54,10 @@ header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.9);backdrop
 .header-btn{margin-left:auto;background:var(--ink);color:#fff;text-decoration:none;font-family:var(--jost);font-size:11px;letter-spacing:.18em;padding:12px 20px;white-space:nowrap;text-transform:uppercase;}
 
 /* ヒーロー */
-.hero{position:relative;min-height:calc(100svh - 61px);display:flex;align-items:center;justify-content:center;text-align:center;padding:60px 28px;overflow:hidden;background:var(--bg);}
-.hero-in{position:relative;max-width:540px;}
+.hero{position:relative;min-height:calc(100svh - 61px);display:flex;align-items:center;justify-content:center;text-align:center;padding:60px 28px;overflow:hidden;background:var(--off);}
+.hero .hero-bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;z-index:0;}
+.hero::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(255,255,255,.66),rgba(255,255,255,.72) 55%,rgba(255,255,255,.82));}
+.hero-in{position:relative;z-index:2;max-width:540px;}
 .hero .jost{font-family:var(--jost);font-size:16px;letter-spacing:.5em;color:var(--gray);margin:0 0 30px;text-transform:uppercase;}
 .hero h1{font-size:28px;line-height:2;font-weight:400;margin:0 0 28px;letter-spacing:.2em;}
 .hero h1 b{font-weight:500;}
@@ -162,6 +164,7 @@ footer .copy{font-size:10.5px;opacity:.5;margin-top:24px;line-height:1.8;}
 
 <!-- ヒーロー -->
 <div class="hero">
+  <img class="hero-bg" src="images/hero.jpg" alt="LÉA の店内">
   <div class="hero-in">
     <p class="jost">eyelash salon</p>
     <h1>まつげで、目もとを<br><b>研ぎ澄ます。</b></h1>
@@ -180,6 +183,8 @@ footer .copy{font-size:10.5px;opacity:.5;margin-top:24px;line-height:1.8;}
     <p>まつげは、多いほど<br>美しいわけじゃない。<br><br>LÉA がつくるのは、<br><b>「その人にしか似合わない」</b><br>研ぎ澄まされた目もとです。</p>
   </div>
 </section>
+
+<div class="band"><img src="images/eye.jpg" alt="LÉA のまつげデザイン" loading="lazy"></div>
 
 <!-- 悩み -->
 <section>
@@ -231,6 +236,8 @@ footer .copy{font-size:10.5px;opacity:.5;margin-top:24px;line-height:1.8;}
     </div>
   </div>
 </section>
+
+<div class="band"><img src="images/work.jpg" alt="LÉA の施術風景" loading="lazy"></div>
 
 <!-- 声 -->
 <section class="voices">
