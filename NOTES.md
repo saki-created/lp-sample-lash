@@ -12,11 +12,11 @@
 - 架空サロン：eyelash salon LÉA（レア／モード・ミニマル。すべてサンプル）
 - ゴール：初回オフ込みナチュラルラッシュ ¥5,500 の予約（ボタンはダミー）
 - デザイン：白×黒のモード・ミニマル。Jost（欧文）＋Zen Kaku Gothic New。広い字間、罫線、黒の帯(concept/offer)。
-  写真は温かいクリーム系だが、白黒レイアウトと合わせて"エディトリアル"に。バンド写真は軽く彩度控えめ。
+  写真はモノトーン版に差し替え済み（白黒レイアウトと完全一致）。
 - 相談導線：末尾 .pitch＋フッター → Threads(@saki.created_easth)
 - 声は「※イメージ」。サンプル表記あり。noindexなし（検索に出す）。
 - アクセス解析：script.js設置済み。※VercelでEnableはサキさん操作待ち。
-- 写真：3枚（hero.jpg＝店内ポスター／eye.jpg＝目もとアップ／work.jpg＝施術風景）
+- 写真：モノトーン3枚（hero.jpg＝黒ガラス扉の内観／eye.jpg＝目もとアップ／work.jpg＝施術風景）
 
 ## 作品集サンプル一覧（4枚そろった）
 - ① https://lp-sample-salon.vercel.app  エステ Lumière（白×ゴールド高級）
